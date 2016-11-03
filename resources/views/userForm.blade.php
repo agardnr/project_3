@@ -30,11 +30,7 @@
 </div>
 </div>
 
-
-
-
 <!-- Include Email or Phone -->
-<!-- Multiple Checkboxes -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="user_info">Include</label>
   <div class="col-md-4">

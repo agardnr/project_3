@@ -180,10 +180,10 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         Barryvdh\Debugbar\ServiceProvider::class,
-        Magyarjeti\LaravelLipsum\LipsumServiceProvider::class,
+
 
         Ecrmnn\Lorem\LoremServiceProvider::class,
-        Fakerino\Package\FakerinoProvider::class
+
 
     ],
 
@@ -232,7 +232,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-	'Lipsum' => Magyarjeti\LaravelLipsum\LipsumFacade::class,
+
     'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 

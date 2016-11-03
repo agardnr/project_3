@@ -15,8 +15,6 @@
 
     <link href='/css/p3.css' type='text/css' rel='stylesheet'>
 
-    {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
-    @yield('head')
 
 </head>
 <body>
@@ -56,9 +54,6 @@
       @yield('name')
     </section>
 
-
-
-    {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}
     @yield('body')
 </body>
 

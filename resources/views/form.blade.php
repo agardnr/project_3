@@ -7,8 +7,6 @@
 
 {{ csrf_field() }}
 
-
-
 </div>
 <fieldset class="align-center">
 <h4>Lorem Ipsum Generator</h4>
@@ -19,7 +17,6 @@
 <div class="col-md-2">
 <input id="paragraphs" name="paragraphs" type="number" placeholder="" class="form-control input-md">
 
-<!--//////////-->
 <div class="form-group">
 <label class="col-md-12 control-label" for="errors"></label>
 <div class="col-md-12">
@@ -34,7 +31,6 @@
 @endif
 </div>
 </div>
-<!--//////////-->
 </div>
 </div>
 
