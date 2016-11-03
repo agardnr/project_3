@@ -50,7 +50,7 @@ class IpsumController extends Controller
         //
         # Validate Data
         $this->validate($request, [
-            'paragraphs' => 'required|numeric|max:10|min:1|'
+            'paragraphs' => 'required|numeric|max:99|min:1|'
         ]);
 
         # Get data from form

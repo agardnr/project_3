@@ -50,7 +50,7 @@ class UserController extends Controller
         //
         # Validate Data
         $this->validate($request, [
-            'users' => 'required|numeric|max:10|min:1'
+            'users' => 'required|numeric|max:99|min:1'
         ]);
 
         # Get data from form
