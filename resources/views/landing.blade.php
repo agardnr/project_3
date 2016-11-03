@@ -13,42 +13,41 @@
 
 @section('landing')
 <div class="container">
-    </div>
     <div class="row">
-        <div class="offset-md-0 col-md-2">
-
-        </div>
+        <div class="offset-md-0 col-md-2"></div>
 
         <div class="offset-md-0 col-md-8">
             <h2>Developer's Best friend</h2>
             <br>
             <h3>What type of information would you like to generate?</h3>
             <br>
-            <ul>
+
             <div class='project_links'>
+            <ul>
                 <li>
-            <div class= 'description'>Generate random Lorem Ipsum text for your project</div>
+            Generate random Lorem Ipsum text for your project
         </li>
-        <dl>
-              <a href='/form/create' id='generate'>Lorem Ipsum Text</a>
-          </dl>
-              <br>
-              <br>
+                <li>
+              <a href='/form/create'>Lorem Ipsum Text</a>
+          </li>
+      </ul>
+      <br><br>
+      <ul>
               <li>
-              <div class= 'description'>Generate random data for your project-
-              <br>
-          You can generate: Names, Email Addresses, and Phone Numbers.</div>
+              Generate random data for your project!
+          </li>
+            <li>
+          You can generate: Names, Email Addresses, and Phone Numbers.
       </li>
-      <dl>
-              <a href='/users/form' id='generate'>Random User Data</a>
-          </dl>
+                <li>
+              <a href='/users/form'>Random User Data</a>
+          </li>
           </ul>
-        </div>
-        </div>
+          </div>
+          </div>
 
-        <div class="col-md-0 offset-md-2">
 
-        </div>
+        <div class="col-md-0 offset-md-2"></div>
     </div>
 </div>
 

@@ -23,7 +23,6 @@
 
     <nav id= 'links'>
         <div class="container">
-        </div>
         <div class="row">
             <div class="offset-md-0 col-md-4">
                 <a href='/form/create'>Lorem Ipsum</a>

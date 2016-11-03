@@ -7,9 +7,6 @@
 
 {{ csrf_field() }}
 
-
-
-</div>
 <fieldset>
 <h4>Random User Information Generator</h4>
 

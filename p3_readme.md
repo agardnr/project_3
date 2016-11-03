@@ -5,7 +5,7 @@
 **Description:**
 Lorem Ipsum and Random User Generator
 
-**Screencast demo:** [Link to Demo](http://screencast.com/t/MDtkLWXrr)
+**Screencast demo:** [Link to Demo](http://screencast.com/t/cTHxbjpbc)
 
 **Details for TA:**
 
