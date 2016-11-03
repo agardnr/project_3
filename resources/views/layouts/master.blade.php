@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>
-        {{-- Yield the title if it exists, otherwise default to 'Foobooks' --}}
-        @yield('title','Foobooks')
+        @yield('title','Developers Best Friend')
     </title>
 
     <meta charset='utf-8'>
@@ -14,7 +13,7 @@
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css' rel='stylesheet'>
 
-    <link href='/resources/css/p3.css' type='text/css' rel='stylesheet'>
+    <link href='/css/p3.css' type='text/css' rel='stylesheet'>
 
     {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
     @yield('head')
@@ -22,15 +21,26 @@
 </head>
 <body>
 
-    <header>
 
-    </header>
 
-    <nav>
-        <ul>
-            <li><a href=''>Link 1</a></li>
-            <li><a href=''>Link 2</a></li>
-        </ul>
+    <nav id= 'links'>
+        <div class="container">
+        </div>
+        <div class="row">
+            <div class="offset-md-0 col-md-4">
+                <a href='/form/create'>Lorem Ipsum</a>
+            </div>
+
+            <div class="offset-md-0 col-md-4">
+                <a href=''><h3>Web Developer's Best friend</h3></a>
+            </div>
+
+            <div class="col-md-0 offset-md-4">
+                <a href='/users/form'>Random Users</a>
+            </div>
+        </div>
+    </div>
+
     </nav>
 
 
@@ -47,14 +57,9 @@
     </section>
 
 
-    <footer>
-        &copy; {{ date('Y') }} &nbsp;&nbsp;
-    </footer>
 
     {{-- Yield any page specific JS files or anything else you might want at the end of the body --}}
     @yield('body')
-
 </body>
+
 </html>
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help

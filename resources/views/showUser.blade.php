@@ -3,30 +3,43 @@
 
 
 @section('title')
-    Success!
+    Random User Generator
 @endsection
 
 
-{{--
-This `head` section will be yielded right before the closing </head> tag.
-Use it to add specific things that *this* View needs in the head,
-such as a page specific stylesheets.
---}}
 @section('head')
-    <link href="/css/books/show.css" type='text/css' rel='stylesheet'>
+
 @endsection
 
 
 @section('name')
-<h1>Show User Names:</h1>
-<br>
+<div class="container">
+<div class="row">
+    <div class="offset-md-0 col-md-4">
 
-@foreach ($names as $name)
+    </div>
 
-    {{ $name }}
-    <br>
+    <div class="offset-md-0 col-md-4">
+        <h4>Random User Information</h4>
+        <br>
+        <div class='info'>
 
-@endforeach
+        @foreach ($names as $name)
+
+            {{ $name }}
+            <br>
+
+        @endforeach
+</div>
+    </div>
+
+    <div class="col-md-0 offset-md-4">
+    </div>
+</div>
+</div>
+
+
+
 
 
 
@@ -41,5 +54,3 @@ such as a page specific JavaScript files.
 @section('body')
     <script src="/js/books/show.js"></script>
 @stop
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help

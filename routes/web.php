@@ -31,6 +31,3 @@ Route::get('/users/form', 'UserController@create')->name('user.create');
 //Route::post('/users/form/show', 'UserController@show')->name('user.show');
 
 Route::post('/users/form/show', 'UserController@generator')->name('user.generator');
-
-# Generate Random User data using Faker
-//Route::get('/generate', 'FakeController@index')->name('users.index');
