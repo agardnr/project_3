@@ -1,0 +1,28 @@
+#links {
+  display: none;
+}
+
+h2, .h2 {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10px;
+  color: #151fba;
+
+}
+
+.project_links {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+dl {
+  font-size: medium;
+}
+
+li {
+  font-size: large;
+  padding-bottom: 2%;
+}

@@ -43,5 +43,4 @@
 
 
 @section('body')
-    <script src="/js/books/show.js"></script>
 @stop

@@ -14,7 +14,7 @@
     <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css' rel='stylesheet'>
 
     <link href='/css/p3.css' type='text/css' rel='stylesheet'>
-
+        @yield('head')
 
 </head>
 <body>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="offset-md-0 col-md-4">
-                <a href=''><h3>Web Developer's Best friend</h3></a>
+                <a href="/"><h3>Developer's Best friend</h3></a>
             </div>
 
             <div class="col-md-0 offset-md-4">
@@ -52,6 +52,9 @@
     </section>
     <section>
       @yield('name')
+    </section>
+    <section>
+      @yield('landing')
     </section>
 
     @yield('body')
