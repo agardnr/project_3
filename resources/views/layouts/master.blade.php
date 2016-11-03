@@ -14,7 +14,7 @@
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/lumen/bootstrap.min.css' rel='stylesheet'>
 
-    <link href='/css/foobooks.css' type='text/css' rel='stylesheet'>
+    <link href='/resources/css/p3.css' type='text/css' rel='stylesheet'>
 
     {{-- Yield any page specific CSS files or anything else you might want in the <head> --}}
     @yield('head')
@@ -41,6 +41,9 @@
     <section>
         {{-- Main page content will be yielded here --}}
         @yield('ipsum')
+    </section>
+    <section>
+      @yield('name')
     </section>
 
 

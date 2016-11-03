@@ -95,18 +95,50 @@ class UserController extends Controller
         //
     }
 
-    public function generator(){
+    public function generator(Request $request)
+    {
 
+        # Validate Data
+        $this->validate($request, [
+            'number' => 'required|numeric|max:99|min:1|'
+        ]);
+
+        # Get data from form
+        $number = $request->input('number');
+        $email = $request->input('email');
+        $phone = $request->input('phone');
+
+        # Generate data
         #Faker
         $faker = \Faker\Factory::create();
 
         # Pass variable to faker
-        $limit = 22;
+        $limit = $number;
 
+        $names = array();
         for ($i = 0; $i < $limit; $i++) {
 
-        echo $faker->name . ', Email Address: ' . $faker->unique()->email . ', Contact No' . $faker->phoneNumber . '<br>';
+        $fakernames = $faker->name;
+        array_push($names, $fakernames);
+
+        if ($email != '') {
+            $fakeremail = $faker->unique()->email;
+            array_push($names, $fakeremail);
         }
+
+        if ($phone != '') {
+            $fakerphone = $faker->phoneNumber;
+            array_push($names, $fakerphone);
+        }
+
+
+        # Display Users view if no errors exist
+
+
+        }
+
+        return \View::make('showUser')->with('names', $names);
+
     }
 
 

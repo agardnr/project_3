@@ -17,13 +17,18 @@ such as a page specific stylesheets.
 @endsection
 
 
-@section('ipsum')
-<h1>Show User Number:</h1>
+@section('name')
+<h1>Show User Names:</h1>
 <br>
-{{ $users }}
-<br>
-<h1>Show Users:</h1>
-<br>
+
+@foreach ($names as $name)
+
+    {{ $name }}
+    <br>
+
+@endforeach
+
+
 
 @endsection
 

@@ -9,10 +9,12 @@ Lorem Ipsum and Random User Generator
 
 **Details for TA:**
 
-I used packages to generate Lorem Ipsum and random users.
+I used packages to generate Lorem Ipsum and random users. For random users I used Faker, which
+is already included as a library in Laravel.
 
 
 **Outside Code:**
 
 * [Package: lorem by Daniel Eckermann](http://packalyst.com/packages/package/ecrmnn/lorem)
+* [Package: Faker, Instructions with code:](http://www.tutorials.kode-blog.com/laravel-5-faker-tutorial)
 * [Bootstrap](http://getbootstrap.com/)
