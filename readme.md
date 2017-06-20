@@ -1,17 +1,11 @@
-**Developer's Best Friend:** Project 3
+**Lorem Ipsum and Random User Generator**
 
-**Live URL:** [Link to Amanda's Portfolio](http://www.p3.amanda-gardner.org/)
+[Assignment Details from Syllabus](https://github.com/susanBuck/dwa15-archive/blob/master/2016-Spring/site/05_Projects/07_P3.md)
 
 **Description:**
-Lorem Ipsum and Random User Generator
+Laravel-based web application that generates Lorem Ipsum text and Random User Information. 
 
 **Screencast demo:** [Link to Demo](http://screencast.com/t/cTHxbjpbc)
-
-**Details for TA:**
-
-I used packages to generate Lorem Ipsum and random users. For random users I used Faker, which
-is already included as a library in Laravel.
-
 
 **Outside Code:**
 
