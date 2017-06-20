@@ -10,5 +10,5 @@ Laravel-based web application that generates Lorem Ipsum text and Random User In
 **Outside Code:**
 
 * [Package: lorem by Daniel Eckermann](http://packalyst.com/packages/package/ecrmnn/lorem)
-* [Package: Faker, Instructions with code:](http://www.tutorials.kode-blog.com/laravel-5-faker-tutorial)
+* [Package: Faker, Instructions with code](http://www.tutorials.kode-blog.com/laravel-5-faker-tutorial)
 * [Bootstrap](http://getbootstrap.com/)
